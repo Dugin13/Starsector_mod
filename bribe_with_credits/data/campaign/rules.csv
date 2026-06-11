@@ -1,0 +1,10 @@
+id,trigger,options,script,text,notes
+# Custom bribe option for AI inspectors using credits instead of story points
+HegemonyInspectFleet_bribeOption,DialogOptionSelected,$option == bribeCredits,BribeCreditCommand getCost,"Bribe the inspector ($bribeCostString).",Add credit-based bribe option
+,,"AddOption ""bribeCredits"" ""Bribe the inspector with credits.""",,
+,BribeCreditCommand check,,,Check if player can afford
+,,FireBest DialogOptionSelected,,,
+HegemonyInspectFleet_bribeOption,DialogOptionSelected,"$option == bribeCredits && $canAffordBribe",BribeCreditCommand pay,The inspector accepts your bribe and looks the other way.,Process the bribe payment
+,,FireBest PopOption,,,
+HegemonyInspectFleet_bribeOption,DialogOptionSelected,"$option == bribeCredits && !$canAffordBribe",,"You don't have enough credits to bribe the inspector.",Not enough credits
+,,FireBest PopOption,,,

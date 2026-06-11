@@ -1,0 +1,10 @@
+{
+  "id": "bribe_with_credits",
+  "name": "Bribe AI Inspectors with Credits",
+  "author": "Niels",
+  "version": "1.0.0",
+  "description": "Allows you to bribe Hegemony AI inspectors with credits instead of story points.",
+  "gameVersion": "0.97a-RC11",
+  "modPlugin": "com.bribecredits.BribeCreditsPlugin",
+  "jars": ["jars/BribeWithCredits.jar"]
+}

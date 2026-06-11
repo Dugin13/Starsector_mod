@@ -1,0 +1,3 @@
+id,name,cost to install,cost per day,build time,income,upkeep mult,item use id,demand id 1,demand id 2,demand id 3,demand id 4,supply id 1,supply id 2,supply id 3,supply id 4,tags,plugin,order,downgrade,upgrade,disruptionDaysBase,image,income description,special item id 1,special item id 2,special item id 3,
+auto_mining,Auto Mining,150000,1000,180,0,0.05,,heavyarmaments,heavymachinery,,,ore,rareore,organics,,INDUSTRIAL,,,,,30,graphics/icons/industry/mining.png,Extracts resources from the planet's crust.,,,,
+

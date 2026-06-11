@@ -1,0 +1,15 @@
+# Build artifacts
+out/
+jars/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
